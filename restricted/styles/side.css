@@ -1,0 +1,41 @@
+#mySidenav a {
+    margin-top: 36px;
+    position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    color: white; /* White text color */
+
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+    background-color: #111;
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 20px;
+    background-color: #333;
+}
+
+#blog {
+    top: 80px;
+    background-color: #333; /* Blue */
+}
+
+#projects {
+    top: 140px;
+    background-color: #333; /* Red */
+}
+
+#contact {
+    top: 200px;
+    background-color: #333 /* Light Black */
+}
+.active1 {
+background-color: #111 !important;
+}

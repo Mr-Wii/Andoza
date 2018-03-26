@@ -1,0 +1,24 @@
+.wrapper, .header {display: none;}
+div.terms{display: none;}
+ul {display: none;}
+html ,body {
+  text-align: center;
+}
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+.n1 {
+  float: left;
+  width: 20%;
+  margin-left: 75px;
+}
+.n2 {
+  width: 25%;
+  float: right;
+  margin-right: 75px;
+}
+.n3 {
+  margin-top: 60px;
+  width: 90%;
+}

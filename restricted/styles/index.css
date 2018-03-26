@@ -1,0 +1,58 @@
+a.disabled {
+   pointer-events: none;
+   cursor: default;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+
+}
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	text-align:center;
+  background-color: #eee;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.active {
+    background-color: #008080;
+    color: white;
+}
+.active1 {
+    background-color: #111;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.pic {
+  padding-top: 50px;
+  align-content: center;
+}
+div.terms{
+    display:block;
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+    background:#eee;
+    border:1px solid #ddd;
+    color: black;
+    font-size: 12px;
+}
